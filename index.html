@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+
+<title>Crystal Collector</title>
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../unit-4-game/assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="../unit-4-game/assets/css/style.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div>
+        <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div calss="col-sm-12 instructions">
+                <h2>Instructions</h2>
+             <p>You will be given a random number at the start of the game.</p>
+             <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+             <p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+             <p>The value of each crystal is hidden from you until you click on it.</p>
+            </div>
+        </div>
+
+        <div calss="row">
+            <div class="col-sm-9">
+            <h2>Score to match:</h2>
+            <h4 id="scoreToMatch"></h4>
+            </div>
+            <div calss="col-sm-3">
+                <h3>Wins:</h3>
+                <h4 id="wins"></h4>
+                <h3>Losses:</h3>
+                <h4 id="losses"></h4>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-sm-3">
+                <img src="../unit-4-game/assets/images/amethyst_crystal.jpg" class="purple color" alt="Purple Crystal" width="200" height="200" />
+                </div>
+                <div class="col-sm-3">
+                <img src="../unit-4-game/assets/images/crystal3.jpg" class="blue color" alt="Blue Crystal" width="200" height="200" />
+                </div>
+                <div class="col-sm-3">
+                <img src="../unit-4-game/assets/images/crystals1.jpg" class="green color" alt="Green Crystal" width="200" height="200" />
+                </div>
+                <div class="col-sm-3">
+                  <img src="../unit-4-game/assets/images/crystalwatercolors.jpg" class="water color" alt="Water Crystal" width="200" height="200" />
+                </div>
+              </div>
+
+              <div class="row">
+                    <div class="col-sm-12">
+                    <h2>Your total score:</h2>
+                    <h4 id="totalScore"></h4>
+                    </div>
+                  </div>
+     
+    </div>
+
+
+
+
+
+</body>
+
+<script src="../unit-4-game/assets/javascript/game.js"></script>
+
+</html>
